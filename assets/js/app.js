@@ -39,6 +39,6 @@ function typeWriter() {
   if (i < txt.length) {
     document.getElementById("typeWriterSpace").innerHTML += txt.charAt(i);
     i++;
-    setTimeout(typeWriter, 100);
+    setTimeout(typeWriter, 75);
   }
 }
